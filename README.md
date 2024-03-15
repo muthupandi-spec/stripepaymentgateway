@@ -1,2 +1,0 @@
-# stripepaymentgateway
-paymentgateway

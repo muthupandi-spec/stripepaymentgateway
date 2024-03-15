@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-mergeDebugResources-72:/layout/activity_main.xml",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-mergeDebugResources-72:/layout/fragment_second.xml",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-mergeDebugResources-72:/layout/fragment_first.xml",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-mergeDebugResources-72:/layout/strip_layout.xml",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/strip_layout.xml"
+    },
+    {
+        "merged": "com.example.stripepaymentgateway.app-mergeDebugResources-72:/layout/strip_layout.xml",
+        "source": "com.example.stripepaymentgateway.app-main-75:/layout/strip_layout.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-mergeDebugResources-72:/layout/content_main.xml",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/content_main.xml"
+    }
+]

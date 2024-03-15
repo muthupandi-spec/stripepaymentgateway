@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/navigation_nav_graph.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/menu_menu_main.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/layout_strip_layout.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/strip_layout.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/layout_activity_main.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/layout_fragment_first.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.stripepaymentgateway.app-merged_res-73:/layout_strip_layout.xml.flat",
+        "source": "com.example.stripepaymentgateway.app-main-75:/layout/strip_layout.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/xml_backup_rules.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/layout_fragment_second.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-merged_res-73:/layout_content_main.xml.flat",
+        "source": "/home/abservetech/.gradle/daemon/8.2/com.example.stripepaymentgateway.app-main-75:/layout/content_main.xml"
+    }
+]

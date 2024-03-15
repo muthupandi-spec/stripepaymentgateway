@@ -1,0 +1,348 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.stripepaymentgateway"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+14    <queries>
+14-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:10:5-14:15
+15
+16        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+17        <package android:name="com.android.chrome" />
+17-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:13:9-54
+17-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:13:18-51
+18    </queries> <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24
+25    <permission
+25-->[androidx.core:core:1.12.0] /home/abservetech/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.stripepaymentgateway.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.12.0] /home/abservetech/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.12.0] /home/abservetech/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.stripepaymentgateway.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.12.0] /home/abservetech/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.12.0] /home/abservetech/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:6:5-34:19
+32        android:allowBackup="true"
+32-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:7:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.12.0] /home/abservetech/.gradle/caches/transforms-3/d1e4a685b1001794fbcfe4ee9c157a7e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:8:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:9:9-54
+38        android:icon="@mipmap/ic_launcher_round"
+38-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:10:9-49
+39        android:label="@string/app_name"
+39-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:11:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:12:9-54
+41        android:supportsRtl="true"
+41-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:13:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.Stripepaymentgateway" >
+43-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:14:9-58
+44        <activity
+44-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:16:9-22:20
+45            android:name="com.example.stripepaymentgateway.MainActivity"
+45-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:17:13-41
+46            android:exported="true"
+46-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:18:13-36
+47            android:label="@string/app_name"
+47-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:19:13-45
+48            android:theme="@style/Theme.Stripepaymentgateway" >
+48-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:20:13-62
+49        </activity>
+50        <activity
+50-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:23:9-33:20
+51            android:name="com.example.stripepaymentgateway.StripeePaymentActivity"
+51-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:24:13-51
+52            android:exported="true"
+52-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:25:13-36
+53            android:label="@string/app_name"
+53-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:26:13-45
+54            android:theme="@style/Theme.Stripepaymentgateway" >
+54-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:27:13-62
+55            <intent-filter>
+55-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:28:13-32:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:29:17-69
+56-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:29:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:31:17-77
+58-->/home/abservetech/AndroidStudioProjects/Stripepaymentgateway/app/src/main/AndroidManifest.xml:31:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:10:9-13:69
+62            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+62-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:11:13-80
+63            android:exported="false"
+63-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:12:13-37
+64            android:theme="@style/StripePaymentSheetDefaultTheme" />
+64-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:13:13-66
+65        <activity
+65-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:14:9-17:69
+66            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+66-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:15:13-82
+67            android:exported="false"
+67-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:16:13-37
+68            android:theme="@style/StripePaymentSheetDefaultTheme" />
+68-->[com.stripe:paymentsheet:17.2.0] /home/abservetech/.gradle/caches/transforms-3/48f70a3dc0b8a3f41a67f3412964b01f/transformed/paymentsheet-17.2.0/AndroidManifest.xml:17:13-66
+69        <activity
+69-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:17:9-20:57
+70            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+70-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:18:13-76
+71            android:exported="false"
+71-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:19:13-37
+72            android:theme="@style/StripeDefaultTheme" />
+72-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:20:13-54
+73        <activity
+73-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:21:9-24:57
+74            android:name="com.stripe.android.view.PaymentMethodsActivity"
+74-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:22:13-74
+75            android:exported="false"
+75-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:23:13-37
+76            android:theme="@style/StripeDefaultTheme" />
+76-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:24:13-54
+77        <activity
+77-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:25:9-28:57
+78            android:name="com.stripe.android.view.PaymentFlowActivity"
+78-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:26:13-71
+79            android:exported="false"
+79-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:27:13-37
+80            android:theme="@style/StripeDefaultTheme" />
+80-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:28:13-54
+81        <activity
+81-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:29:9-33:58
+82            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+82-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:30:13-78
+83            android:exported="false"
+83-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:31:13-37
+84            android:theme="@style/StripeDefaultTheme"
+84-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:32:13-54
+85            android:windowSoftInputMode="adjustResize" />
+85-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:33:13-55
+86        <activity
+86-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:34:9-37:61
+87            android:name="com.stripe.android.view.PaymentRelayActivity"
+87-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:35:13-72
+88            android:exported="false"
+88-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:36:13-37
+89            android:theme="@style/StripeTransparentTheme" />
+89-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:37:13-58
+90        <!--
+91        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+92        launched the browser Activity will also handle the return URL deep link.
+93        -->
+94        <activity
+94-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:43:9-60:20
+95            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+95-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:44:13-85
+96            android:exported="true"
+96-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:45:13-36
+97            android:launchMode="singleTask"
+97-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:46:13-44
+98            android:theme="@style/StripeTransparentTheme" >
+98-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:47:13-58
+99            <intent-filter>
+99-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:48:13-59:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:49:17-69
+100-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:49:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:51:17-76
+102-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:51:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:52:17-78
+103-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:52:27-75
+104
+105                <!-- Must match `DefaultReturnUrl#value`. -->
+106                <data
+106-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:55:17-58:50
+107                    android:host="payment_return_url"
+107-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:56:21-54
+108                    android:path="/com.example.stripepaymentgateway"
+108-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:57:21-53
+109                    android:scheme="stripesdk" />
+109-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:58:21-47
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:61:9-64:57
+113            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+113-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:62:13-114
+114            android:exported="false"
+114-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:63:13-37
+115            android:theme="@style/StripeDefaultTheme" />
+115-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:64:13-54
+116        <activity
+116-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:65:9-68:66
+117            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+117-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:66:13-88
+118            android:exported="false"
+118-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:67:13-37
+119            android:theme="@style/StripeGooglePayDefaultTheme" />
+119-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:68:13-63
+120        <activity
+120-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:69:9-72:66
+121            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+121-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:70:13-90
+122            android:exported="false"
+122-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:71:13-37
+123            android:theme="@style/StripeGooglePayDefaultTheme" />
+123-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:72:13-63
+124        <activity
+124-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:73:9-76:66
+125            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+125-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:74:13-103
+126            android:exported="false"
+126-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:75:13-37
+127            android:theme="@style/StripeGooglePayDefaultTheme" />
+127-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:76:13-63
+128        <activity
+128-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:77:9-80:62
+129            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+129-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:78:13-107
+130            android:exported="false"
+130-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:79:13-37
+131            android:theme="@style/PayLauncherDefaultTheme" />
+131-->[com.stripe:payments-core:17.2.0] /home/abservetech/.gradle/caches/transforms-3/535e823606725baf84a393c9d76f3074/transformed/payments-core-17.2.0/AndroidManifest.xml:80:13-59
+132        <activity
+132-->[com.stripe:stripe-3ds2-android:6.1.2] /home/abservetech/.gradle/caches/transforms-3/db47c3bb996e9bd793e21163551d4f89/transformed/stripe-3ds2-android-6.1.2/AndroidManifest.xml:10:9-13:54
+133            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+133-->[com.stripe:stripe-3ds2-android:6.1.2] /home/abservetech/.gradle/caches/transforms-3/db47c3bb996e9bd793e21163551d4f89/transformed/stripe-3ds2-android-6.1.2/AndroidManifest.xml:11:13-81
+134            android:exported="false"
+134-->[com.stripe:stripe-3ds2-android:6.1.2] /home/abservetech/.gradle/caches/transforms-3/db47c3bb996e9bd793e21163551d4f89/transformed/stripe-3ds2-android-6.1.2/AndroidManifest.xml:12:13-37
+135            android:theme="@style/Stripe3DS2Theme" />
+135-->[com.stripe:stripe-3ds2-android:6.1.2] /home/abservetech/.gradle/caches/transforms-3/db47c3bb996e9bd793e21163551d4f89/transformed/stripe-3ds2-android-6.1.2/AndroidManifest.xml:13:13-51
+136
+137        <provider
+137-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+138            android:name="androidx.startup.InitializationProvider"
+138-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+139            android:authorities="com.example.stripepaymentgateway.androidx-startup"
+139-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+140            android:exported="false" >
+140-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+141            <meta-data
+141-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+142                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+142-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+143                android:value="androidx.startup" />
+143-->[androidx.emoji2:emoji2:1.2.0] /home/abservetech/.gradle/caches/transforms-3/9dba3473c2e7ab91e493b9371a42d8d3/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+144            <meta-data
+144-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/abservetech/.gradle/caches/transforms-3/f65ecc3788deedbb02a8d14b7a9fa4dd/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+145                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+145-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/abservetech/.gradle/caches/transforms-3/f65ecc3788deedbb02a8d14b7a9fa4dd/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+146                android:value="androidx.startup" />
+146-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/abservetech/.gradle/caches/transforms-3/f65ecc3788deedbb02a8d14b7a9fa4dd/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+147            <meta-data
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+148                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+149                android:value="androidx.startup" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+150        </provider> <!-- Needs to be explicitly declared on P+ -->
+151        <uses-library
+151-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+152            android:name="org.apache.http.legacy"
+152-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+153            android:required="false" />
+153-->[com.google.android.gms:play-services-maps:17.0.0] /home/abservetech/.gradle/caches/transforms-3/6339b7a56b9bbb7aa66d4c7942e29984/transformed/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+154
+155        <activity
+155-->[com.google.android.gms:play-services-base:17.5.0] /home/abservetech/.gradle/caches/transforms-3/243b1f0b4c5a9dbcc4fdf2bb2da8c399/transformed/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+156-->[com.google.android.gms:play-services-base:17.5.0] /home/abservetech/.gradle/caches/transforms-3/243b1f0b4c5a9dbcc4fdf2bb2da8c399/transformed/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-base:17.5.0] /home/abservetech/.gradle/caches/transforms-3/243b1f0b4c5a9dbcc4fdf2bb2da8c399/transformed/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.google.android.gms:play-services-base:17.5.0] /home/abservetech/.gradle/caches/transforms-3/243b1f0b4c5a9dbcc4fdf2bb2da8c399/transformed/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-basement:17.5.0] /home/abservetech/.gradle/caches/transforms-3/ea493bbbd779700a37c1bd3ef9b5202f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+161            android:name="com.google.android.gms.version"
+161-->[com.google.android.gms:play-services-basement:17.5.0] /home/abservetech/.gradle/caches/transforms-3/ea493bbbd779700a37c1bd3ef9b5202f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+162            android:value="@integer/google_play_services_version" />
+162-->[com.google.android.gms:play-services-basement:17.5.0] /home/abservetech/.gradle/caches/transforms-3/ea493bbbd779700a37c1bd3ef9b5202f/transformed/play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+163
+164        <uses-library
+164-->[androidx.window:window:1.0.0] /home/abservetech/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+165            android:name="androidx.window.extensions"
+165-->[androidx.window:window:1.0.0] /home/abservetech/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+166            android:required="false" />
+166-->[androidx.window:window:1.0.0] /home/abservetech/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+167        <uses-library
+167-->[androidx.window:window:1.0.0] /home/abservetech/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+168            android:name="androidx.window.sidecar"
+168-->[androidx.window:window:1.0.0] /home/abservetech/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+169            android:required="false" />
+169-->[androidx.window:window:1.0.0] /home/abservetech/.gradle/caches/transforms-3/108abe6471b017e5481657b16c1015d6/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+170
+171        <receiver
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+172            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+173            android:directBootAware="false"
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+174            android:enabled="true"
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+175            android:exported="true"
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+176            android:permission="android.permission.DUMP" >
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+178                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+179            </intent-filter>
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+181                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+182            </intent-filter>
+183            <intent-filter>
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+184                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+185            </intent-filter>
+186            <intent-filter>
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+187                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/abservetech/.gradle/caches/transforms-3/ee77c6148e535550acd02ec4a55fcb7f/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+188            </intent-filter>
+189        </receiver>
+190    </application>
+191
+192</manifest>
